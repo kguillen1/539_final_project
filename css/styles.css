@@ -1,0 +1,599 @@
+​​html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+body{
+  background-color: #FCF5F8;
+  color: #2C1F25;
+  font-family: Roboto, Tahoma, Poppins, Montserrat, Roboto, sans-serif;
+  font-size: 18px;
+}
+
+
+p{
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+
+/* line spacing */
+p{
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+
+h1, h2, h3{
+  line-height: 1.2;
+}
+
+
+main ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 10px;
+  line-height: 1.8;
+}
+
+
+h1{
+  font-weight: bold;
+  font-size: 45px;
+}
+
+
+h2{
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+h3{
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+/* header color */
+header {
+  background-color: #DD99BB;
+  padding: .2rem 0;
+}
+
+
+header nav ul li a {
+  color: #1F1A38;
+  transition: color 0.3s ease;
+}
+
+
+header nav ul li a:hover {
+  color: #2C1F25;
+  background-color: #EBC2D6;
+  text-decoration: underline;
+  text-decoration-color: #2C1F25;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 4px;
+}
+
+
+
+
+/* Optional: make wrapper stay centered */
+/* .wrapper {
+  margin: 0 auto;
+  padding: 0 1rem;
+} */
+
+
+/* skip to main */
+.skip {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  background: #2C1F25;
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+
+.skip:focus {
+  top: 20px;
+}
+
+
+
+/* Header */
+header{
+  height: auto;
+  padding: 1.5rem 0;
+}
+
+
+header .wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+header h1{
+  justify-self: start;
+  text-align: left;
+}
+
+
+header h1{
+  margin-left: 1.5rem;
+  margin-top: 3rem;
+  padding-left: 0;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  text-align: left;
+}
+
+
+/* h2 {
+white-space: nowrap;
+} */
+
+
+/* .wrapper{
+  padding-left: 0.5rem;
+} */
+
+
+
+
+header nav{
+  padding-right: 3rem;
+  margin-top: 3rem;
+}
+
+
+header nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+
+header nav ul li{
+  margin: 0 10px;
+}
+
+
+header nav ul li a{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+/* .nav-bg {
+  background-color: #f5f5f5;
+  width: 100%;
+} */
+
+
+
+
+/* cover image */
+#hero-image{
+  width: 100%;
+  min-height: 580px;
+  padding-top: 1px;
+  padding-bottom: 40px;
+  background: #FCF5F8 url("../images/paperplane.png") no-repeat center;
+  background-size: cover;
+  background-color: transparent;
+  background-position: center top
+}
+
+
+#hero-image h2{
+  margin: 180px 0 40px 0;
+}
+
+
+/* Footer */
+.web-footer {
+  background-color: #d9ccc3;
+  color: #1F1A38;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+
+.footer-content {
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/* Footer sections */
+.web-footer {
+  background-color: #DD99BB;
+  color: #1a132f;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+
+/* .footer-content {
+  flex-wrap: wrap;
+  word-break: break-word;
+  flex-direction: column;
+} */
+
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+
+/* .footer-content > div {
+  flex: 1 1 100%;
+  margin-bottom: 1rem;
+} */
+
+
+/* .wrapper {
+  margin: 0 auto;
+  padding: 0 1rem;
+} */
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+
+/* section {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(31, 26, 56, 0.1);
+  padding-left: 1rem;
+  padding-right: 1rem;
+} */
+
+section {
+  margin: 2rem 0;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  background-color: #E0E0F5;
+  box-shadow: 0 8px 10px rgba(123, 80, 111, 0.1);
+}
+
+
+#footer-links a {
+  color: #1F1A38;
+  text-decoration: none;
+  line-height: 1.8;
+}
+
+
+#footer-links a:hover {
+  color: #2C1F25;
+  background-color: #EBC2D6;
+  text-decoration: underline;
+  text-decoration-color: #2C1F25;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 4px;
+
+}
+
+
+/* progress bar */
+#progress-banner {
+  background-color: #FCF5F8;
+  color: #1F1A38;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  border-bottom: 2px solid #DD99BB;
+}
+
+
+#progress-bar-container {
+  background-color: #e1dede;
+  height: 20px;
+  width: 80%;
+  margin: 0.5rem auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+#progress-bar {
+  background: linear-gradient(to right, #DD99BB, #7B506F);
+  height: 100%;
+  width: 0%;
+  transition: width 0.6s ease-in-out;
+  border-radius: 5px;
+}
+
+
+#progress-bar {
+  background-color: #DD99BB;
+  height: 100%;
+  width: 0%;
+  transition: width 0.6s ease-in-out;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+
+#progress-banner p {
+  margin-bottom: 0.25rem;
+}
+
+
+/* styling the button */
+button {
+  background-color: #DD99BB;
+  color: #1F1A38;
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(123, 80, 111, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+button:hover {
+  background-color: #2c1f25;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+
+button:focus {
+  outline: 2px solid #1F1A38;
+  outline-offset: 3px;
+
+
+}
+
+
+section h4 {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #1F1A38;
+}
+
+
+section button {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+
+section {
+  text-align: left;
+  padding: 2rem 1rem;
+  margin: 2rem auto;
+  border-radius: 12px;
+  background-color: #E0E0F5;
+  /* max-width: 1000px; */
+  box-shadow: 0 8px 10px rgba(123, 80, 111, 0.1);
+}
+
+.faves-page section {
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.books-page section {
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+
+html, body {
+  overflow-x: hidden;
+}
+
+/* book position */
+
+
+
+.book-entry {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: flex-start;
+}
+
+.book-cover {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-text {
+  flex: 1;
+}
+
+/* block quote */
+blockquote {
+  line-height: 1.6;
+  margin: 1em 0;
+}
+
+/* Tutorial for having card flipped over taken from W3 schools */
+/* Author: W3 Schools
+Publication Date: not specificed
+Title: How TO - Flip Card
+Code version: not specified
+Type: CSS
+Availability:https://www.w3schools.com/howto/howto_css_flip_card.asp */
+
+
+/* faves page styling */
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+/* position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* horizontal flip when hover */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Positioning the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Styling the front side */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 8px;
+}
+
+/* Styling the back side */
+.flip-card-back {
+  background-color: #422E38;
+  color: white;
+  transform: rotateY(180deg);
+  overflow: scroll;
+}
+
+.flip-card-front, .flip-card-back {
+  border-radius: 8px;
+}
+
+.flip-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.books-page .flip-card-back h3 {
+  font-size: 1rem;
+}
+
+.books-page .flip-card-back p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.books-page .flip-card-back {
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 0;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card:focus {
+  outline: 2px solid #7B506F;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flip-card-inner {
+    transition: none;
+    transform: none;
+  }
+
+  .flip-card {
+    perspective: none;
+  }
+}
+
+
+/* fixing the banner and header because landmark issue */
+header {
+  padding: 0;
+}
+
+/* Progress banner */
+#progress-banner {
+  background-color: #FCF5F8;
+  color: #1F1A38;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  border-bottom: 2px solid #DD99BB;
+}
+
+/* Navigation section - match hero image */
+#site-header {
+  background-color: #DD99BB;
+  padding: 1.5rem 0;
+  color: #2C1F25;
+}
+
+header nav {
+  padding: .5rem 3rem 1rem 3rem;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul li a {
+  line-height: 1;
+}
